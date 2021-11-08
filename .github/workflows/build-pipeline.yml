@@ -38,5 +38,5 @@ jobs:
           branch: gh-pages
           folder: dist
       - name: Test
-        run: npm test
+        run: npm run test
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the 
